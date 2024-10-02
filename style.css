@@ -1,0 +1,66 @@
+/* Styling the body with a background color and padding */
+body {
+    background-color: #D1A7A0; /* Light background color */
+    padding:25px;
+    padding-right: 30px;
+    padding-left: 30px; /* Space between the content and the edge of the page */
+    font-family: monospace;
+    
+ }
+
+ 
+ div.header{
+    border-radius: 25px;
+    padding:5px;
+    background-color:#D2E0BF;
+    color:#CE84AD;
+    p{
+        color:#ab1467;
+    }
+ }
+ div.toolbar{
+    border-radius: 25px;
+    padding: 5px;
+    height:40px;
+    background-color:#D2E0BF;
+    color:#CE84AD;
+    text-align: center;
+ }
+
+ div.content{
+    padding:10px;
+    border-radius: 25px;
+    background-color:#CE96A6;
+ }
+ /* Styling the header text */
+ h1 {
+    text-align: left; /* Center-aligning the header text */
+    font-size: 35px; /* Font size */
+    margin-bottom: 20px; /* Space below the header */
+    font-weight: 1000; /* Sets the weight equivalent to bold */
+ }
+ 
+ 
+ /* Styling the links in the navigation list */
+
+ 
+ 
+ ul li {
+    display: inline; /* Makes the list horizontal */
+    margin: 0 10px; /* Adds space between the links */
+ }
+ 
+ 
+ ul li a {
+    color: #8b0045; /* Link color */
+ }
+ 
+ 
+ /* Styling the image */
+ img {
+    display: block;
+    width: 300px; /* Sets width for the image */
+    margin: 20px auto; /* Center the image and add margin */
+ }
+ 
+ /* Styling the subheadings */
