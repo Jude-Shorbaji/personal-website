@@ -32,11 +32,17 @@ body {
     border-radius: 25px;
     background-color:#CE96A6;
  }
+ div.recent{
+    background-color: #badad2;
+    height: 200px;
+    text-align: center;
+    border-radius: 25px;
+ }
  /* Styling the header text */
  h1 {
     text-align: left; /* Center-aligning the header text */
     font-size: 35px; /* Font size */
-    margin-bottom: 20px; /* Space below the header */
+    margin-bottom: 20px; /* Space  below the header */
     font-weight: 1000; /* Sets the weight equivalent to bold */
  }
  
@@ -64,3 +70,7 @@ body {
  }
  
  /* Styling the subheadings */
+ h2{
+    font-size:25px;
+    color:#D2E0BF;
+ }
