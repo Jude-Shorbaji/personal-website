@@ -1,6 +1,6 @@
 /* Styling the body with a background color and padding */
 body {
-    background-color: #D1A7A0; /* Light background color */
+    background-color: #FAFAFA; /* Light background color */
     padding:25px;
     padding-right: 30px;
     padding-left: 30px; /* Space between the content and the edge of the page */
@@ -12,31 +12,43 @@ body {
  div.header{
     border-radius: 25px;
     padding:5px;
-    background-color:#D2E0BF;
-    color:#CE84AD;
+    background-color:#FAFAFA;
+    color:#49BEAA;
+    box-shadow: 5px 5px 5px #c0b4b4;
     p{
-        color:#ab1467;
+      color:#456990;
     }
  }
  div.toolbar{
     border-radius: 25px;
     padding: 5px;
     height:40px;
-    background-color:#D2E0BF;
-    color:#CE84AD;
+    background-color:#FAFAFA;
+    box-shadow: 0px 5px 5px #c0b4b4;
     text-align: center;
+    a{
+      color:#49DCB1;
+    }
  }
 
  div.content{
     padding:10px;
     border-radius: 25px;
-    background-color:#CE96A6;
+    background-color:#FAFAFA;
+    box-shadow: 0px 5px 5px #c0b4b4;
+    h2{
+      color:#EF767A;
+    }
+    h1{
+      color:#EEB868;
+    }
  }
  div.recent{
     background-color: #badad2;
     height: 200px;
     text-align: center;
     border-radius: 25px;
+    box-shadow: 0px 5px 5px #c0b4b4;
  }
  /* Styling the header text */
  h1 {
