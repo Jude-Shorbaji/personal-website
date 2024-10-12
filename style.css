@@ -1,49 +1,43 @@
 /* Styling the body with a background color and padding */
+
+/*basic building blocks*/
 body {
-    background-color: #F9F6EE; /* Light background color */
+    background-color: #F6F4F1; /* Light background color */
     padding:25px;
     padding-right: 30px;
     padding-left: 30px; /* Space between the content and the edge of the page */
     font-family: monospace;
     
  }
-
- 
  div.header{
     border-radius: 25px;
     padding:5px;
-    background-color:#F9F6EE;
-    color:#49BEAA;
+    padding-left: 10px;
+    background-color:#FFFFFF;
     box-shadow: 0px 0px 20px #dccfcf;
-    
-    p{
-      color:#456990;
-    }
  }
  div.toolbar{
     border-radius: 25px;
     padding: 5px;
+    padding-left: 10px;
     height:40px;
-    background-color:#F9F6EE;
+    background-color:#FFFFFF;
     box-shadow: 0px 0px 20px #dccfcf;
-    text-align: center;
-    a{
-      color:#49DCB1;
-    }
+    text-align: left;
  }
+   ul li {
+   display: inline; /* Makes the list horizontal */
+   margin: 10%; /* Adds space between the links */
+}
 
  div.content{
     padding:10px;
     border-radius: 25px;
-    background-color:#F9F6EE;
+    background-color:#FFFFFF;
     box-shadow: 0px 0px 20px #dccfcf;
-    h2{
-      color:#EF767A;
-    }
-    h1{
-      color:#EEB868;
-    }
  }
+
+ /*adding projects or blogs*/
  div.project {
    border-radius: 25px;
    background-color: #badad2;
@@ -55,7 +49,11 @@ body {
    display: inline-block;
    padding: 1rem 1rem;
    vertical-align: middle;
-   
+   img {
+      display: block;
+      width: 300px; /* Sets width for the image */
+      margin: 20px auto; /* Center the image and add margin */
+   }
  }
  div.recent{
     text-align: center;
@@ -70,40 +68,47 @@ body {
    border-radius:25px;
    background-color:#badad2;
    padding: 10px;
+   img {
+      display: block;
+      width: 300px; /* Sets width for the image */
+      margin: 20px auto; /* Center the image and add margin */
+   }
  }
- /* Styling the header text */
+ /* Styling text */
  h1 {
     text-align: left; /* Center-aligning the header text */
-    font-size: 35px; /* Font size */
+    font-size: 50px; /* Font size */
     margin-bottom: 20px; /* Space  below the header */
     font-weight: 1000; /* Sets the weight equivalent to bold */
+    font-family: "nicholas", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   color:#49BEAA;
  }
+ h2{
+   font-size:25px;
+   color:#49BEAA;
+   font-family: "nicholas", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+}
+p{
+   font-family: "nicholas", sans-serif;
+   font-weight: 200;
+   font-style: thin;
+   color:#456990;
+}
+a{
+   font-family: "nicholas", sans-serif;
+   font-weight: 200;
+   font-style: thin;
+   text-decoration: none;
+    color:#456990;
+}
  
- 
- /* Styling the links in the navigation list */
 
  
+
+
+
  
- ul li {
-    display: inline; /* Makes the list horizontal */
-    margin: 0 10px; /* Adds space between the links */
- }
- 
- 
- ul li a {
-    color: #8b0045; /* Link color */
- }
- 
- 
- /* Styling the image */
- img {
-    display: block;
-    width: 300px; /* Sets width for the image */
-    margin: 20px auto; /* Center the image and add margin */
- }
- 
- /* Styling the subheadings */
- h2{
-    font-size:25px;
-    color:#49BEAA;
- }
