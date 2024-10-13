@@ -38,21 +38,19 @@ body {
  }
 
  /*adding projects or blogs*/
- div.project {
-   border-radius: 25px;
-   background-color: #badad2;
-   margin: .5rem;
-   padding: .5rem 1rem;
-   text-align: center;
- }
  div.info {
    display: inline-block;
    padding: 1rem 1rem;
    vertical-align: middle;
+   text-align: left;
+   height:300px;
+   width: 40%;
    img {
       display: block;
-      width: 300px; /* Sets width for the image */
-      margin: 20px auto; /* Center the image and add margin */
+      height: 250px; /* Sets width for the image */
+      margin: 20px auto;
+      box-shadow: 0px 0px 10px #c0b4b4; /* Center the image and add margin */
+      
    }
  }
  div.recent{
@@ -64,13 +62,20 @@ body {
  }
  div.blog{
    width: 400px;
-   height:300px;
    border-radius:25px;
-   background-color:#badad2;
+   background-color:#c2ebe0;
    padding: 10px;
+   text-align: left;
+   a{
+      font-size:30px;
+      font-weight: 800;
+   }
+   p{
+      font-size: 20px;
+   }
    img {
       display: block;
-      width: 300px; /* Sets width for the image */
+      width: 350px; /* Sets width for the image */
       margin: 20px auto; /* Center the image and add margin */
    }
  }
@@ -92,22 +97,31 @@ body {
    font-weight: 700;
    font-style: normal;
 }
+h3{
+   font-family: "nicholas", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+}
 p{
    font-family: "nicholas", sans-serif;
    font-weight: 200;
    font-style: thin;
    color:#456990;
 }
-a{
+a:link{
    font-family: "nicholas", sans-serif;
    font-weight: 200;
    font-style: thin;
    text-decoration: none;
-    color:#456990;
+    color:#49BEAA;
 }
- 
+a:visited {
+   color: #49BEAA;
+ }
+a:hover{
+   color:#456990;
+}
 
- 
 
 
 
